@@ -1,0 +1,22 @@
+* {
+   box-sizing: border-box;
+}
+
+h2 {
+   text-transform: lowercase;
+   color: rgba(150, 58, 176);
+   text-align: center;
+}
+div {
+   font-style: italic;
+   text-align: center;
+}
+p {
+   text-align: center;
+}
+.brown {
+   color: brown;
+}
+#heading {
+   border-bottom: 1px solid #000;
+}
