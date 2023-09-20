@@ -1,7 +1,47 @@
-@font-face {
-   font-family: FontName;
-   src: url();
+body {
+   background-image: url(../img/more-leaves-on-green.png);
+   margin: 0;
 }
-.fontlist {
-   list-style: none;
+
+.product-item {
+   background-color: coral;
+   color: #fff;
+   padding: 10px 15px;
+   margin: 0px 0 50px;
+   height: 100vh;
+
+   /* border-radius: 50px 0 0;
+   outline: 1px solid red;
+   box-shadow: black 0 0 20px 10px; */
+
+}
+
+.product-item:first-child {
+   background: url(../img/forest.jpg) no-repeat, url(../img/forest.jpg) no-repeat;
+   background-position: top center, bottom center;
+   background-color: coral;
+   background-size: 500px, 200px;
+}
+
+.product-item:nth-child(2) {
+   background: url(../img/forest.jpg) no-repeat;
+   background-size: cover;
+   background-color: coral;
+   background-position: right top;
+   background-attachment: fixed;
+   /* background-blend-mode: color; */
+   background-origin: border-box;
+   background-clip: inherit;
+}
+
+.product-item__title {
+   width: 100%;
+   height: auto;
+   box-sizing: border-box;
+   margin: 10px auto;
+   padding: 10px 15px;
+
+}
+.product-item__description {
+
 }

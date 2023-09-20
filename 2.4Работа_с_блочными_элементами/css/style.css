@@ -1,0 +1,13 @@
+.product-item__title {
+   width: 100%;
+   height: auto;
+   box-sizing: border-box;
+   margin: 10px 0 15px;
+   padding: 10px 15px;
+   line-height: 1;
+   border: 1px solid #000;
+}
+.product-item__description {
+   border: 1px solid #f00;
+   margin-top: 10px;
+}
