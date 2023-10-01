@@ -1,14 +1,22 @@
-.card {
-   border: 2px solid #000;
-   padding: 20px 25px;
-   width: 300px;
-   border-radius: 10px;
-   background-color: lightgray;
+.link, a {
+   text-decoration: none;
 }
-h2, h3 {
-   margin: 0 0 0 10px;
+.link:hover, a:hover {
+   border-bottom: 1px solid;
 }
-ul {
-   margin-top: 5px;
-   margin-bottom: 0;
+.link:visited, /* a:visited */ {
+   color: gold;
+}
+.anchor {
+   display: inline-block;
+   color: #fff;
+   background-color: #000;
+   padding: 5px 15px;
+   text-transform: uppercase;
+   font-size: 14px;
+   border-radius: 15px;
+}
+.anchor:hover {
+   background-color: rgb(243, 56, 243);
+   color: rgb(5, 146, 5);
 }
