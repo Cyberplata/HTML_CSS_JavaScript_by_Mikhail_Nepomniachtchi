@@ -1,0 +1,46 @@
+html, body {
+   margin: 0;
+   box-sizing: border-box;
+}
+a {
+   display: inline-block;
+   margin-right: 10px;
+   color: lightblue;
+}
+a::before {
+   content: "@";
+}
+a::after {
+   content: "\2706";
+   margin-left: 10px;
+}
+a[href="https://google.com"] {
+   text-transform: uppercase;
+}
+a:not([target]) {
+   color: firebrick;
+}
+a::selection {
+   background-color: greenyellow;
+   color: white;
+}
+input {
+   border: none;
+   border-bottom: 1px solid black;
+   outline: none;
+}
+input:focus {
+   border-bottom: 1px solid blue;
+}
+.products {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+}
+.product__item {
+   width: 280px;
+   height: 220px;
+   margin-top: 20px;
+   margin-right: 20px;
+   background-color: cornflowerblue;
+}
