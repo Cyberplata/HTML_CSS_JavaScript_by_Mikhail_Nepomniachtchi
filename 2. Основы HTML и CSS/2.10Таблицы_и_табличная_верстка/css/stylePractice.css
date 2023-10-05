@@ -1,0 +1,22 @@
+section {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.item {
+   width: 100px;
+   height: 100px;
+   background-color: yellow;
+}
+.item:nth-child(-n+3) {
+   background-color: maroon;
+}
+.item:last-of-type {
+   background-color: gold;
+}
+.item:nth-child(2n) {
+   border: 1px solid #000;
+}
+.item:hover {
+   border: 1px solid red;
+}
