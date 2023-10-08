@@ -1,0 +1,30 @@
+.hero {
+   min-height: 250px;
+   display: flex; /* will be discovered soon */
+   align-items: center; /* will be discovered soon */
+   position: absolute;
+   z-index: 5;
+}
+
+.hero__content {
+   border-radius: 12px;
+   background: rgba(0, 0, 0, 0.5);
+   padding: 0.75rem 1.25rem;
+   color: white;
+   width: 60%;
+   position: relative;
+   top: 50%;
+   right: 50%;
+   z-index: 100;
+}
+
+.hero__image {
+   position: relative;
+   top: 50px;
+   max-width: 100%;
+   z-index: 15;
+}
+
+.hero__text {
+   font-size: 18px;
+}
