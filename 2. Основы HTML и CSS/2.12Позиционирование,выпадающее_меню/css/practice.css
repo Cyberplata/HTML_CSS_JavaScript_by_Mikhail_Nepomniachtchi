@@ -2,8 +2,9 @@
    min-height: 250px;
    display: flex; /* will be discovered soon */
    align-items: center; /* will be discovered soon */
-   position: absolute;
+   position: relative;
    z-index: 5;
+   overflow: hidden;
 }
 
 .hero__content {
@@ -12,9 +13,9 @@
    padding: 0.75rem 1.25rem;
    color: white;
    width: 60%;
-   position: relative;
-   top: 50%;
-   right: 50%;
+   position: absolute;
+   top: 38%;
+   right: 18%;
    z-index: 100;
 }
 
