@@ -1,0 +1,48 @@
+body {
+   margin: 0;
+   background-color: #ccc;
+}
+
+h3 {
+   margin-top: 0;
+}
+
+.product-card {
+   background-color: #fff;
+   max-width: 180px;
+   padding: 10px;
+   border-radius: 1rem;
+   border: 1px solid #fb6a03;
+   display: flex;
+   flex-direction: column;
+   /* margin: 20px; */
+}
+.product-card:hover {
+   box-shadow: 0 0 20px 10px black;
+}
+.products {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: 1rem;
+   /* align-items: flex-end; */
+}
+.product-card > button {
+   display: flex;
+   align-self: flex-end;
+}
+.button {
+   padding: 5px 70px;
+   text-transform: uppercase;
+   font-size: 15px;
+   align-self: stretch;
+}
+button:nth-child(2) {
+   align-self: stretch;
+   color: green;
+}
+.button:hover {
+   background-color: darkgoldenrod;
+   text-transform: none;
+   border: 1px solid #d50e0e;
+}
