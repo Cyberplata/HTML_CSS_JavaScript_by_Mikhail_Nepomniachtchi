@@ -8,13 +8,15 @@ h3 {
 }
 
 .product-card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: flex-start;
    background-color: #fff;
    max-width: 180px;
    padding: 10px;
    border-radius: 1rem;
    border: 1px solid #fb6a03;
-   display: flex;
-   flex-direction: column;
    /* margin: 20px; */
 }
 .product-card:hover {
@@ -25,17 +27,17 @@ h3 {
    flex-direction: row;
    justify-content: space-between;
    margin: 1rem;
-   /* align-items: flex-end; */
+   /* align-items: flex-end;  */
 }
-.product-card > button {
+/* .product-card > button {
    display: flex;
    align-self: flex-end;
-}
+} */
 .button {
    padding: 5px 70px;
    text-transform: uppercase;
    font-size: 15px;
-   align-self: stretch;
+   /* align-self: stretch; */
 }
 button:nth-child(2) {
    align-self: stretch;
@@ -46,3 +48,18 @@ button:nth-child(2) {
    text-transform: none;
    border: 1px solid #d50e0e;
 }
+.product-card:nth-child(2) > p:nth-child(2) {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   /* align-items: flex-start; */
+   align-self: start;
+   background-color: red;
+}
+/* .product-card:nth-child(2) > p:nth-child(2) {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   background-color: red;
+} */
