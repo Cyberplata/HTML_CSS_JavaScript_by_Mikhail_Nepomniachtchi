@@ -1,3 +1,10 @@
+* {
+   box-sizing: border-box;
+}
+html,
+body {
+   margin: 0;
+}
 .cards {
    display: flex;
    justify-content: flex-start;
