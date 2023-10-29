@@ -1,0 +1,36 @@
+.Realize_your_full_po {
+   font-size: 50px;
+   font-family: "Poppins";
+   color: rgb(85, 77, 137);
+   font-weight: bold;
+   line-height: 1.2;
+   text-align: left;
+   position: absolute;
+   left: 386.138px;
+   top: 444.087px;
+   width: 323px;
+   height: 115px;
+   z-index: 3556;
+}
+.Button {
+   font-size: 16px;
+   font-family: "Poppins";
+   color: rgb(255, 255, 255);
+   line-height: 1.2;
+   text-align: center;
+   width: 92px;
+}
+.Bg {
+   border-radius: 10px;
+   background-image: -moz-linear-gradient( 63.435deg, rgb(104,82,237) 0%, rgb(186,67,252) 100%);
+   background-image: -webkit-linear-gradient( 63.435deg, rgb(104,82,237) 0%, rgb(186,67,252) 100%);
+   background-image: -ms-linear-gradient( 63.435deg, rgb(104,82,237) 0%, rgb(186,67,252) 100%);
+   box-shadow: 0px 0px 20px 0px rgba(104, 82, 237, 0.8);
+   position: absolute;
+   left: 1170px;
+   top: 1133px;
+   width: 360px;
+   height: 229px;
+   z-index: 3534;
+}
+
