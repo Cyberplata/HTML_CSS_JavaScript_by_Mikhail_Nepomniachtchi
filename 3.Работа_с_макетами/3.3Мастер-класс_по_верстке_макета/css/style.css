@@ -251,7 +251,7 @@ h3 {
 
 .infoblock .fas {
    color: #6852ed;
-   font-size: 3.2rem;
+   font-size: 2.2rem;
    margin-bottom: 3rem;
 }
 
@@ -446,4 +446,74 @@ h3 {
 }
 .article_reverse {
    flex-direction: row-reverse;
+}
+
+.features2 {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 9.5rem;
+}
+.features2__width {
+   width: 750px;
+}
+.infoblock2 {
+   width: 360px;
+   border-radius: 10px;
+   box-shadow: 0 0 20px 0 #e1e4ed;
+   background-color: #fff;
+   padding: 3rem;
+}
+/* .firstRow {
+   flex-wrap: nowrap;
+   align-content: start;
+} */
+/* .infoblock2:nth-child(2) {
+   margin-top: 3rem;
+} */
+.infoblock2:nth-child(3) {
+/*    position: absolute; */
+}
+/* .infoblock2:nth-child(4) {
+   margin-top: 3rem;
+} */
+.infoblock2:hover {
+   box-shadow: 0 0 20px 0 rgba(104, 82, 237, 0.8);
+   background-image: linear-gradient(to top, #6852ed, #ba43fc);
+}
+
+.infoblock2 .fas {
+   color: #6852ed;
+   font-size: 2.2rem;
+   margin-bottom: 3rem;
+}
+
+.infoblock2__title {
+   font-size: 2.2rem;
+   margin-bottom: 3rem;
+}
+
+.infoblock2__text {
+   color: #716c80;
+}
+
+.infoblock2__link {
+   display: none;
+   color: #fff;
+   margin-top: 4.6rem;
+}
+
+.infoblock2:hover .fas {
+   display: none;
+}
+
+.infoblock2:hover .infoblock2__title {
+   color: #fff;
+}
+
+.infoblock2:hover .infoblock2__text {
+   color: #fff;
+}
+
+.infoblock2:hover .infoblock2__link {
+   display: inline-block;
 }
