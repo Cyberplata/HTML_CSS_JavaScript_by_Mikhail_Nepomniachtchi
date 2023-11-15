@@ -332,7 +332,85 @@ h3 {
    background-image: linear-gradient(to top, #ffffff, #f0f0f0);
    position: relative;
 }
-
+/* .works__actions {
+} */
+.works__circle1 {
+   position: absolute;
+   top: 6.8rem;
+   left: 2.6rem;
+   border-radius: 50%;
+   width: 181px;
+   height: 181px;
+   background-color: #ba43fc;
+}
+.works__circle2 {
+   position: absolute;
+   top: 4.9rem;
+   left: 36.5rem;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   background-color: #ba43fc;
+}
+.works__circle3 {
+   position: absolute;
+   top: 4.9rem;
+   right: 60rem;
+   border-radius: 50%;
+   width: 37px;
+   height: 37px;
+   background-color: #ba43fc;
+}
+.works__sausageTop {
+   position: absolute;
+   bottom: 41.2rem;
+   right: 0;
+   border-radius: 50%;
+   width: 20rem;
+   height: 48rem;
+   transform: rotate(30deg);
+   clear: both;
+   overflow: hidden;
+   background-color: #6852ed;
+}
+.works__circle4 {
+   position: absolute;
+   top: 27rem;
+   left: 31.8rem;
+   border-radius: 50%;
+   width: 2rem;
+   height: 2rem;
+   transform: rotate(30deg);
+   background-color: #6852ed;
+}
+.works__sausageBottom {
+   position: absolute;
+   top: 38rem;
+   left: 30rem;
+   border-radius: 50%;
+   width: 20rem;
+   height: 48rem;
+   transform: rotate(45deg);
+   background-color: #6852ed;
+}
+.works__circle5 {
+   position: absolute;
+   bottom: 8.6rem;
+   right: 37.5rem;
+   border-radius: 50%;
+   width: 8rem;
+   height: 8rem;
+   background-color: #6852ed;
+}
+.works__circle6 {
+   position: absolute;
+   bottom: 15.6rem;
+   right: -10.7rem;
+   border-radius: 50%;
+   width: 21.5rem;
+   height: 21.5rem;
+   background-color: #ba43fc;
+}
 .btn-play {
    width: 80px;
    height: 80px;
