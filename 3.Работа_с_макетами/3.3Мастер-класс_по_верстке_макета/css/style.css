@@ -468,14 +468,14 @@ h3 {
 }
 
 .infoblock2:nth-child(2) {
-   /* margin-top: 3rem; */
+   margin-top: 3rem;
 }
 .infoblock2:nth-child(3) {
    margin-right: 3rem;
 }
 .infoblock2:nth-child(4) {
-   /* margin-top: 3rem; */
-   /* margin-right: 6rem; */
+   margin-top: 3rem;
+   margin-right: 6rem;
 
 }
 .infoblock2:hover {
@@ -524,7 +524,7 @@ h3 {
    display: flex;
    justify-content: flex-end;
    align-items: center;
-   margin-top: -35rem;
+   margin-top: -30rem;
 }
 .article2__content {
    /* width: 50%; */
@@ -543,6 +543,7 @@ h3 {
    color: #716c80;
    margin-bottom: 5.3rem;
    line-height: 1.56;
+   font-size: 17px;
 }
 
 .article2 .btn {
