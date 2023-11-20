@@ -323,12 +323,12 @@ h3 {
 }
 
 .works {
-   /* width: 1920px; */
+   width: 1920px;
    height: 480px;
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 1.4rem;
+   margin-top: 14.4rem;
    background-image: linear-gradient(to top, #ffffff, #f0f0f0);
    position: relative;
 }
@@ -537,7 +537,6 @@ h3 {
    line-height: 1.35;
    margin-bottom: 3.6rem;
 }
-
 .article2__text {
    width: 328px;
    color: #716c80;
@@ -545,7 +544,167 @@ h3 {
    line-height: 1.56;
    font-size: 17px;
 }
-
 .article2 .btn {
    margin-right: 3.1rem;
+}
+
+
+.skills {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 14.9rem;
+}
+.article3__content {
+   flex-shrink: 0;
+}
+.article3__title {
+   font-family: "Poppins", sans-serif;
+   width: 358px;
+   font-size: 3.3rem;
+   line-height: 1.29;
+   margin-bottom: 3.6rem;
+}
+.article3__text {
+   width: 531px;
+   color: #716c80;
+   margin-bottom: 6.9rem;
+}
+.article3 .btn {
+   margin-bottom: 14.1rem;
+}
+
+.skillbars {
+   /* border: 1px solid black; */
+   width: 553px;
+   margin-left: 5.5rem;
+   font-family: "Nunito", sans-serif;
+   margin-top: -4px;
+}
+.skill1, 
+.skill2,
+.skill3 {
+   margin-bottom: 3.5rem;
+   
+}
+.skill1__content {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 1.6rem;
+}
+.skill1__title {
+}
+.progressbar {
+   display: flex;
+   justify-content: space-between;
+   height: 6px;
+   border-radius: 2.5px;
+}
+.progressbar1__line-start {
+   width: 533px;
+   background-color: #6852ed;
+}
+.progressbar1__line-end {
+   width: 22px;
+   background-color: #e1e4ed;
+}
+
+.skill2__content {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 1.6rem;
+}
+.skill2__title {
+}
+.progressbar2__line-start {
+   width: 450px;
+   background-color: #6852ed;
+}
+.progressbar2__line-end {
+   width: 105px;
+   background-color: #e1e4ed;
+}
+.skill3__content {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 1.6rem;
+}
+.skill3__title {
+}
+.progressbar3__line-start {
+   width: 500px;
+   background-color: #6852ed;
+}
+.progressbar3__line-end {
+   width: 55px;
+   background-color: #e1e4ed;
+}
+
+.skill4__content {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 1.6rem;
+}
+.skill4__title {
+}
+.progressbar4__line-start {
+   width: 460px;
+   background-color: #6852ed;
+}
+.progressbar4__line-end {
+   width: 95px;
+   background-color: #e1e4ed;
+}
+
+
+.callToAction {
+   margin-top: 14rem;
+   width: 1920px;
+   height: 170px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: linear-gradient(to top, #ffffff, #f0f0f0);
+   position: relative;
+}
+.figures {
+}
+.figures__circle1 {
+   position: absolute;
+   top: 1.4rem;
+   right: 21.3rem;
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+   background-color: #ba43fc;
+}
+.figures__circle2 {
+   position: absolute;
+   top: 8.5rem;
+   right: 4.1rem;
+   border-radius: 50%;
+   width: 111px;
+   height: 111px;
+   background-color: #6852ed;
+}
+.figures__oval {
+   position: absolute;
+   top: 38rem;
+   left: 30rem;
+   border-radius: 50%;
+   width: 20rem;
+   height: 48rem;
+   transform: rotate(45deg);
+   background-color: #6852ed;
+}
+.callToAction__action {
+   display: flex;
+   justify-content: space-between;
+   width: 1139px;
+   margin-top: 6.9rem;
+}
+.callToAction__title {
+   font-size: 2.4rem;
+   color: #554d89;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
 }
