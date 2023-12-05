@@ -783,24 +783,64 @@ h3 {
    padding: 6rem;
 }
 .priceContent__title {
-   /* font-size: 2rem; */
+   font-size: 2rem;
+   margin-bottom: 2.6rem;
 }
 .line {
    width: 4rem;
    height: 0.2rem;
    border-radius: 1px;
    background-color: #ba43fc;
-   margin-top: 2.6rem;
+   margin-bottom: 2.3rem;
 }
 .priceContent__text {
    font-family: "Poppins", sans-serif;
    font-size: 50px;
    font-weight: bold;
    line-height: 1.2;
-   margin-top: 2.3rem;
+   margin-bottom: 1.7rem;
    color: #554d89;
 }
 
+.priceContent__perMonth {
+   font-size: 1.6rem;
+   line-height: 1.31;
+   color: rgba(91, 87, 102, 0.8);
+   margin-bottom: 7rem;
+}
+
+.price__infoTodo {
+   color: #716c80;
+}
+
+.price__infoTodo1_yes {
+   /*display: inline-block;*/
+   padding-bottom: 2.1rem;
+ }
+
+.fa-check {
+   color: #6852ed;
+}
+
+.fa-xmark {
+   color: rgba(239, 113, 113, 0.5);
+}
+
+.price__infoTodo1_span-yes {
+   padding-left: 1.1rem;
+}
+
+.price__infoTodo1_span-no {
+   padding-left: 1.7rem;
+}
+.price__infoTodo1_span-no_opacity {
+   color: rgba(113, 108, 128, 0.8);
+}
+.price__infoTodo1_no {
+   padding-bottom: 2.1rem;
+}
+
+/*
 .features {
    display: flex;
    justify-content: space-between;
@@ -855,4 +895,4 @@ h3 {
 
 .infoblock:hover .infoblock__link {
    display: inline-block;
-}
+}*/
