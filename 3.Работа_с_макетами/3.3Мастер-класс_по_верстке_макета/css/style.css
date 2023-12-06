@@ -665,8 +665,9 @@ h3 {
    display: flex;
    justify-content: center;
    align-items: center;
-   background-image: linear-gradient(to top, #ffffff, #f0f0f0);
+   background: linear-gradient(180deg, rgb(107, 84, 237, 0.1), rgb(188, 69, 252, 0.1));
    position: relative;
+   
 }
 .figures {
 }
@@ -811,12 +812,13 @@ h3 {
 
 .price__infoTodo {
    color: #716c80;
+   padding-bottom: 6.5rem;
 }
 
-.price__infoTodo1_yes {
+.price__infoTodo_yes_no {
    /*display: inline-block;*/
    padding-bottom: 2.1rem;
- }
+}
 
 .fa-check {
    color: #6852ed;
@@ -833,66 +835,8 @@ h3 {
 .price__infoTodo1_span-no {
    padding-left: 1.7rem;
 }
+
 .price__infoTodo1_span-no_opacity {
    color: rgba(113, 108, 128, 0.8);
 }
-.price__infoTodo1_no {
-   padding-bottom: 2.1rem;
-}
 
-/*
-.features {
-   display: flex;
-   justify-content: space-between;
-   margin-top: 14rem;
-}
-
-.infoblock {
-   width: 360px;
-   border-radius: 10px;
-   box-shadow: 0 0 20px 0 #e1e4ed;
-   background-color: #fff;
-   padding: 3rem;
-}
-
-.infoblock:hover {
-   box-shadow: 0 0 20px 0 rgba(104, 82, 237, 0.8);
-   background-image: linear-gradient(to top, #6852ed, #ba43fc);
-}
-
-.infoblock .fas {
-   color: #6852ed;
-   font-size: 2.2rem;
-   margin-bottom: 3rem;
-}
-
-.infoblock__title {
-   font-size: 2.2rem;
-   margin-bottom: 3rem;
-}
-
-.infoblock__text {
-   color: #716c80;
-}
-
-.infoblock__link {
-   display: none;
-   color: #fff;
-   margin-top: 4.6rem;
-}
-
-.infoblock:hover .fas {
-   display: none;
-}
-
-.infoblock:hover .infoblock__title {
-   color: #fff;
-}
-
-.infoblock:hover .infoblock__text {
-   color: #fff;
-}
-
-.infoblock:hover .infoblock__link {
-   display: inline-block;
-}*/
