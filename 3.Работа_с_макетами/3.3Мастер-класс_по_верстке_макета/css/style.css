@@ -608,7 +608,6 @@ h3 {
    width: 22px;
    background-color: #e1e4ed;
 }
-
 .skill2__content {
    display: flex;
    justify-content: space-between;
@@ -639,7 +638,6 @@ h3 {
    width: 55px;
    background-color: #e1e4ed;
 }
-
 .skill4__content {
    display: flex;
    justify-content: space-between;
@@ -775,7 +773,6 @@ h3 {
    justify-content: space-between;
    margin-top: 14rem;
 }
-
 .priceContent {
    width: 36rem;
    border-radius: 10px;
@@ -802,41 +799,77 @@ h3 {
    margin-bottom: 1.7rem;
    color: #554d89;
 }
-
 .priceContent__perMonth {
    font-size: 1.6rem;
    line-height: 1.31;
    color: rgba(91, 87, 102, 0.8);
    margin-bottom: 7rem;
 }
-
 .price__infoTodo {
    color: #716c80;
    padding-bottom: 6.5rem;
 }
-
 .price__infoTodo_yes_no {
    /*display: inline-block;*/
    padding-bottom: 2.1rem;
 }
-
 .fa-check {
    color: #6852ed;
 }
-
 .fa-xmark {
    color: rgba(239, 113, 113, 0.5);
 }
-
 .price__infoTodo1_span-yes {
    padding-left: 1.1rem;
 }
-
 .price__infoTodo1_span-no {
    padding-left: 1.7rem;
 }
-
 .price__infoTodo1_span-no_opacity {
    color: rgba(113, 108, 128, 0.8);
 }
 
+
+.support {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 14rem;
+}
+.support__view {
+   position: relative;
+   margin-right: 10rem;
+}
+.question__mark {
+   position: absolute;
+   /* top: 0rem; */
+   left: 0rem;
+   color: #6852ed;
+   font-size: 32px;
+}
+.support__content {
+   margin-left: 6.2rem;
+}
+.support__title {
+   margin-bottom: 3rem;
+}
+.support__text {
+   margin-bottom: 3.8rem;
+}
+.support__looking {
+   position: relative;
+}
+.headset {
+   position: absolute;
+/*    top: 0rem; */
+   left: 0rem;
+   color: #6852ed;
+   font-size: 32px;
+}
+.article__action {
+}
+.link {
+}
+.link-arrow {
+}
+.support__looking {
+}
