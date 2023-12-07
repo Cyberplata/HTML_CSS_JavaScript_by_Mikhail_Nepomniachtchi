@@ -877,10 +877,24 @@ h3 {
    color: #6852ed;
    font-size: 32px;
 }
-.article__action {
+
+
+.footer {
+   display: flex;
+   margin-top: 14rem;
+   justify-content: space-around;
 }
-.link {
+.contacts {
+   position: relative;
 }
-.link-arrow {
+.contacts__headset {
+   position: absolute;
+   left: 0rem;
+   color: #6852ed;
+   font-size: 42px;
+   width: 4.2rem;
+   height: 4.3rem;
 }
-.support__looking {}
+.contacts__content {
+   margin-left: 7.1rem;
+}
