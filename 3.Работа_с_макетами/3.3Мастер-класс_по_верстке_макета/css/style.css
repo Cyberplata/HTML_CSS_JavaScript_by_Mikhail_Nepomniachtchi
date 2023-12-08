@@ -883,9 +883,13 @@ h3 {
    display: flex;
    margin-top: 14rem;
    justify-content: space-around;
+   position: relative;
 }
 .contacts {
    position: relative;
+}
+.contacts__title {
+   margin-bottom: 4.4rem;
 }
 .contacts__headset {
    position: absolute;
@@ -897,4 +901,66 @@ h3 {
 }
 .contacts__content {
    margin-left: 7.1rem;
+}
+.contacts__have-questions {
+   margin-bottom: 0.7rem;
+}
+.contacts__tel {
+   font-family: "Poppins", sans-serif;
+   font-size: 2.2rem;
+   font-weight: 700;
+   line-height: 3.3rem;
+}
+.contacts__address {
+   margin-top: 4.6rem;
+   margin-bottom: 2rem;
+   width: 36rem;
+   font-family: "Nunito", sans-serif;
+   font-size: 1.8rem;
+   line-height: 1.5;
+   height: 5.4rem;
+}
+.links {
+   display: flex;
+   justify-content: space-between;
+   width: 37.8rem;
+}
+.links__title {
+   font-size: 20px;
+   font-weight: 600;
+   color: #554d89;
+   line-height: 3rem;
+   /*margin-bottom: 3rem;*/
+}
+.links__content-fourLinks {
+   color: #554D89;
+   margin-left: -5rem;
+   margin-top: 4.4rem;
+}
+.links__about-company {
+   width: 12.8rem;
+}
+.links__our-services {
+   width: 10.1rem;
+}
+.links__team-members {
+   width: 12.4rem;
+}
+.links__portfolio {
+   width: 6.9rem;
+}
+.links__pricing-plans {
+   width: 10.4rem;
+}
+.links__testimonials {
+   width: 10rem;
+}
+.links__contact {
+   width: 60rem;
+}
+
+.links__content-threeLinks {
+   color: #554D89;
+   margin-top: 4.4rem;
+   margin-left: 6.7rem;
 }
